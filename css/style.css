@@ -1,0 +1,69 @@
+
+/*Phone*/
+.phone-viewer-container {
+  margin: 0 auto;
+  width: 25rem;
+  height: 49rem;
+}
+
+.phone-iframe-container {
+  overflow: hidden;
+  width: 23.75rem;
+  height: 46.1rem;
+  position: absolute;
+  top: 2.4rem;
+  padding-left: 1rem;
+  margin: 0 auto;
+}
+
+.phone-iframe {
+  width: 23rem;
+  height: 40rem;
+  margin: 0px;
+  padding: 6.1rem 0 0 1.85rem;
+}
+
+.phone-img {
+  padding: 7rem 0 0 2.4rem;
+  background: url(../images/iphone.png);
+  background-repeat: no-repeat;
+  background-size: 27.1rem;
+  width: 24.5rem;
+  height: 48rem;
+  vertical-align: top;
+}
+
+/*Tablet*/
+.tablet-img {
+  padding: 7rem 0 0 2.4rem;
+  background: url(../images/ipad.png);
+  background-repeat: no-repeat;
+  background-size: 36.1rem;
+  width: 35.5rem;
+  height: 47rem;
+  vertical-align: top;
+}
+
+.tablet-viewer-container {
+  margin: 0 auto;
+  width: 35rem;
+  height: 49rem;
+}
+
+.tablet-iframe-container {
+  overflow: hidden;
+  width: 33rem;
+  height: 47.5rem;
+  position: absolute;
+  top: 2.4rem;
+  padding-left: 1rem;
+  margin: 0 auto;
+}
+
+.tablet-iframe {
+  width: 32.9rem;
+  height: 42.7rem;
+  margin: 0px;
+  padding: 5rem 0 0 1.1rem;
+}
+
