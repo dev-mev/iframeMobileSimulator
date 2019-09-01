@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link type="text/css" rel="stylesheet" href="css/style.css">
-  <title>Mobile Simulator</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Mobile Simulator</title>
+  </head>
+  <body>
 
-  <form class="url-form">
-    <label for="url-input">Enter a URL</label>
-    <input type="url" id="url-input" placeholder="http://www.example.com">
+    <form class="url-form">
+      <label for="url-input">Enter a URL</label>
+      <input type="url" id="url-input" placeholder="http://www.example.com">
 
-    <label for="display-select">Select a view</label>
-    <select id="display-select">
-      <option value="phone">phone</option>
-      <option value="tablet">tablet</option>
-    </select>
-    <button type="submit">Submit</button>
-  </form>
+      <label for="display-select">Select a view</label>
+      <select id="display-select">
+        <option value="phone">phone</option>
+        <option value="tablet">tablet</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
 
-  <!--phone view-->
-  <div class="phone-viewer-container">
-    <div class="phone-iframe-container">
-      <iframe class="phone-iframe" src="http://www.example.com" frameborder="0"></iframe>
+    <!--phone view-->
+    <div class="phone-viewer-container">
+      <div class="phone-iframe-container">
+        <iframe class="phone-iframe" src="http://www.example.com" frameborder="0"></iframe>
+      </div>
+      <div class="phone-img"></div>
     </div>
-    <div class="phone-img"></div>
-  </div>
 
-  <!--tablet view-->
-  <div class="tablet-viewer-container">
-    <div class="tablet-iframe-container">
-      <iframe class="tablet-iframe" src="http://www.example.com" frameborder="0"></iframe>
+    <!--tablet view-->
+    <div class="tablet-viewer-container">
+      <div class="tablet-iframe-container">
+        <iframe class="tablet-iframe" src="http://www.example.com" frameborder="0"></iframe>
+      </div>
+      <div class="tablet-img"></div>
     </div>
-    <div class="tablet-img"></div>
-  </div>
 
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-    crossorigin="anonymous">
-  </script>
-  <script src="javascript/app.js"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous">
+    </script>
+    <script src="javascript/app.js"></script>
+  </body>
 </html>
